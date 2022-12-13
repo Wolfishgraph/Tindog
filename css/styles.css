@@ -1,0 +1,210 @@
+body{
+    font-family: 'Montserrat', sans-serif ;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+
+/* *********************************************** HEADINGS *******************************************/
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* *********************************************** SECTION *********************************************** */
+
+.color-section{
+    background-color: #ff4c68;
+    color: #ffff;
+}
+
+.white-section{
+    background-color: #ffff;
+}
+
+/* *********************************************** NAVIGATION BAR *********************************************** */
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* *********************************************** DOWNLOAD BUTTONS *********************************************** */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* *********************************************** TITLE-IMG *********************************************** */
+
+.tittle-img{
+    width: 40%;
+    transform: rotate(20deg);
+    position: relative;
+    z-index: 0;
+    left: 8%;
+}
+
+.iphone-img{
+    position: absolute;
+    left: 28%;
+}
+
+
+/* *********************************************** FEATURES *********************************************** */
+
+#features{
+    padding: 7% 15%;
+    color: grey;
+    position: relative;
+    z-index: 2;
+}
+
+.features-icon{
+    color: #ef8172;
+    padding-bottom: 30px;
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+.features-col{
+    padding: 5%;
+}
+
+.feature-item{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: black;
+}
+
+/* *********************************************** TESTIMONIAL SECTION *********************************************** */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* *********************************************** PRICING *********************************************** */
+
+.card{
+    margin: 6% 0;
+}
+
+#pricing{
+    margin: 9% 5%;
+}
+
+.price-col{
+    padding: 0 2%;
+}
+
+.pricing-txt{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* *********************************************** CALL TO ACTION *********************************************** */
+
+#cta{
+    padding: 100px 150px;
+}
+
+.cta-text{
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 5%;
+}
+
+.cta-btn{
+    margin: 15px;
+}
+
+/* footer */
+
+#footer{
+    color: gray;
+    padding: 75px 300px;
+}
+
+.footer-icons{
+    margin: 15px 15px;
+}
+
+.footer-icon{
+    padding: 15px;
+}
+
+/* *********************************************** MEDIA CLASES *********************************************** */
+
+@media screen and (max-width: 991px) {
+    .tittle-img{
+        position: static;
+        transform: rotate(0);
+    }
+    .iphone-img{
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+}
